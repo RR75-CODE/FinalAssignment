@@ -6,7 +6,8 @@ namespace Exercise_2
     {
         public MainWindow()
         {
-            InitializeComponent();
+        InitializeComponent();
         }
     }
+
 }
