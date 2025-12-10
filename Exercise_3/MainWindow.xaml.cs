@@ -6,7 +6,7 @@ namespace Exercise_3
     {
         public MainWindow()
         {
-            InitializeComponent();
+        InitializeComponent();
         }
         private void MainEngine_Checked(object sender, RoutedEventArgs e)
         {
@@ -46,4 +46,5 @@ namespace Exercise_3
             AC.IsChecked = false;
         }
     }
+
 }
