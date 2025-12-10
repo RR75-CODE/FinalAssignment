@@ -1,0 +1,20 @@
+﻿<Window x:Class="Exercise_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exercise 3" Height="300" Width="300">
+
+    <StackPanel Margin="20">
+
+        <CheckBox x:Name="MainEngine"
+                  Content="Engine Off"
+                  IsThreeState="True"
+                  Checked="MainEngine_Checked"
+                  Unchecked="MainEngine_Unchecked"
+                  Indeterminate="MainEngine_Indeterminate"/>
+
+        <CheckBox x:Name="Audio" Content="Enable Audio" IsEnabled="False"/>
+        <CheckBox x:Name="Wipers" Content="Enable Wipers" IsEnabled="False"/>
+        <CheckBox x:Name="AC" Content="Enable AC" IsEnabled="False"/>
+
+    </StackPanel>
+</Window>
